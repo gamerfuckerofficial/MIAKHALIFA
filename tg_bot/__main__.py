@@ -27,7 +27,7 @@ def escape_html(word):
     return escape(word)
 
 PM_START_TEXT = """
-Hello *{}* My name is *Jaadu*!
+Hello *{}* My name is *MIAKHALIFA*!
 
 I'm here to manage your groups! 
 
@@ -53,7 +53,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Hey you can Donate to [Ranger](t.me/ranger_op) for this service """
+DONATE_STRING = """Hey you can Donate to [GAMERFUCKER](t.me/Gamerfucker) for this service """
 
 
 IMPORTED = {}
@@ -161,10 +161,10 @@ def send_start(bot, update):
                 
     keyboard = [[
         InlineKeyboardButton(text=tld(chat.id, '🥳Add To Your Group'),
-                             url="https://t.me/jaadu_op_bot?startgroup=true"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
+                             url="http://t.me/missmiakhalifa_bot?startgroup=true"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
         ]]
     keyboard += [[
-        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/jaadu_bot_official")
+        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/aboutmiakhalifabot")
     ]]
 
     update.effective_message.reply_text(
@@ -406,7 +406,7 @@ def donate(bot: Bot, update: Update):
     if chat.type == "private":
         update.effective_message.reply_text(DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
-        if OWNER_ID != 594813047 and DONATION_LINK:
+        if OWNER_ID != 1332150447 and DONATION_LINK:
             update.effective_message.reply_text("You can also donate to the person currently running me "
                                                 "[here]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
