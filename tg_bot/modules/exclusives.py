@@ -265,7 +265,7 @@ __help__ = """
 
 """
 
-__mod_name__ = "Edith Exclusives"
+__mod_name__ = "Jaadu Exclusives"
 
 OWO_HANDLER = DisableAbleCommandHandler("owo", owo, admin_ok=True)
 STRETCH_HANDLER = DisableAbleCommandHandler("stretch", stretch)
