@@ -1,4 +1,4 @@
-# MIAKHALIFA  (MIAKHALIFA OP Bolte 😈😈 GAMING)
+# MIAKHALIFA  (MIAKHALIFA OP Bolte 😈😈 )
 
 A very powerful telegram group management bot.
 
