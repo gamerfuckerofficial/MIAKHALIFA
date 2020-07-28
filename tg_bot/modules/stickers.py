@@ -11,7 +11,8 @@ from telegram import Update, Bot
 from telegram.ext import run_async
 from telegram.utils.helpers import escape_markdown
 
-from haruka import dispatcher
+from tg_bot import dispatcher
+
 from haruka.modules.disable import DisableAbleCommandHandler
 from haruka.modules.tr_engine.strings import tld
 
