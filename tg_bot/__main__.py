@@ -145,7 +145,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             send_start(bot, update)
     else:
-        update.effective_message.reply_text("Apun Zinda Hai 😈")
+        update.effective_message.reply_text("HI MAI MIA KHALIFA☺️☺️")
 
 def send_start(bot, update):
     #Try to remove old message
@@ -164,7 +164,7 @@ def send_start(bot, update):
                              url="http://t.me/missmiakhalifa_bot?startgroup=true"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
         ]]
     keyboard += [[
-        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/official_ashish1")
+        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/aboutmiakhalifabot")
     ]]
 
     update.effective_message.reply_text(
